@@ -1,0 +1,10 @@
+# Spacefile Docs: https://go.deta.dev/docs/spacefile/v0
+v: 0
+micros:
+  - name: app
+    src: ./
+    engine: nodejs16
+    primary: true
+    run: node index.js
+    dev: node --watch index.js
+    provide_actions: true

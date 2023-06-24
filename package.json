@@ -1,0 +1,15 @@
+{
+  "name": "tty-demo-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "deta": "^1.1.0",
+    "deta-space-actions": "^0.1.8",
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.1"
+  }
+}
